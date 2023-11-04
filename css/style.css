@@ -1,0 +1,79 @@
+body {
+    max-width: 901px;
+    margin: auto;
+}
+header {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.card header{
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* To center the content horizontally */
+}
+
+.span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.strong {
+    font-size: 16px;
+    color: #333;
+    margin-left: 0;
+}
+nav, nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Align items to the right */
+
+}
+h1{
+    font-size: 36px;
+}
+hr{
+background-image: url(/images/hr-img.png);
+height: 10px;
+}
+.card.card.horizontal-content{
+    display: flex;
+}
+.recipe{
+    list-style: none;
+    padding: 0;
+    background-image: url(/images/list-bg.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recipe li {
+    flex: 0 0 calc(50% - 10px); /* Adjust the width of list items, accounting for spacing */
+    margin: 5px; /* Add some spacing between list items */
+    text-align: left; /* Left-align the content within list items */
+}
+.figure{
+    align-items: left;
+    padding: 15px;
+
+}
+footer {
+    text-align: center;
+    background-color: #f7f7f7;
+    color: grey;
+    padding: 10px;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styles can be added as needed */
